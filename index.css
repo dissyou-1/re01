@@ -1,0 +1,79 @@
+.wrapper {
+    margin: auto;
+  }
+  .header {
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(91, 95, 93);
+    border-radius: 10px 5px 10px 5px;
+  }
+  .header .more {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(10, 197, 197);
+    border-radius: 10px 5px 10px 5px;
+
+    float: left;
+  }
+  .header .touxiang {
+    float: left;
+    height: 60px;
+    width: 80px;
+    line-height: 60px;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin: auto;
+  }
+  .header .touxiang img {
+    height: 60px;
+    width: 60px;
+    line-height: 80px;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 1.5s;
+  }
+  .header .touxiang img:hover {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  .header .phone {
+    height: 45px;
+    width: 45px;
+    float: left;
+    background-color: rgb(10, 197, 197);
+    border-radius: 10px 5px 10px 5px;
+
+  }
+  .maincontent {
+    margin-top: 20px;
+    height: 100%;
+    width: 1200px;
+    background-color: rgb(147, 148, 149);
+    border-radius: 10px 5px 10px 5px;
+  }
+  .maincontent .left {
+    float: left;
+    width: 200px;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 10px 5px 10px 5px;
+  }
+  .maincontent .right {
+    margin-left: 5px;
+    float: left;
+    width: 995px;
+    height: 100%;
+    background-color: rgb(95, 240, 110);
+    border-radius: 10px 5px 10px 5px;
+  }
+  .footer {
+    float: left;
+    margin-top: 10px;
+    height: 180px;
+    width: 100%;
+    background-color: rgb(91, 95, 93);
+    border-radius: 10px 5px 10px 5px;
+  }
